@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>履歷表</title>
+    
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/90885657e1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="banner d-flex justify-content-center  flex-column align-items-center">
+        <div class="typeflex-column">
+            <h1 class="title text-monospace  d-sm-flex  d-none">Hi!Here is Ouyang.</h1>
+            <h1 class="txt text-monospace  d-sm-flex  d-none">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thinker,Creator
+                and Learner</h1>
+            <h1 class="titlesm text-monospace d-flex d-sm-none">Hi!Here is Ouyang.</h1>
+
+        </div>
+        <div class="d-flex d-sm-none justify-content-center  flex-column">
+
+            <h1 class="txtsm text-monospace">&lt;Learner&gt;</h1>
+            <h1 class="txtsm text-monospace">&lt;Thinker&gt;</h1>
+            <h1 class="txtsm text-monospace">&lt;Creator&gt;</h1>
+
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light w-100vw">
+        <a class="navbar-brand" href="#top">TOP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#AM">About Me<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#SK">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#PF">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#CM">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <article>
+        <div class="aboutMe" id="AM">
+            <div class="container d-flex flex-column">
+                <div class="mx-auto mt-5 mb-2"><img src="https://picsum.photos/150/150/?random=1"
+                        class=" border rounded-circle"></div>
+                <h3 class="text-center m-3">ABOUT ME</h3>
+                <span class="AMtxt mx-auto mb-5 text-center" style="font-size: 15px;">
+
+                    您好！我是歐陽欣宜。<br>
+                    今年畢業於國立東華大學華文文學系，並於九月開始在泰山職訓局「PHP資料庫網頁設計班」進修。<br>
+                    喜歡思考、創作與學習新事物，以成為後端／全端工程師為目標努力中。
+
+                </span>
+
+
+            </div>
+
+            <div class="exp container">
+                <div class="expitem d-flex  flex-wrap">
+
+                    <div class="expedu col-12 col-md-6 mb-5 d-flex flex-column">
+                        <h4 class="mb-3">Education</h4>
+                        <div class="expeduitem">
+                            <h5>泰山職訓局－PHP資料庫網頁設計班</h5>
+                            <h6 class="muted">2020/9~2020/3</h6>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam tempora. Eos
+                                iure eligendi provident. Dolore optio dicta debitis omnis.</span>
+                        </div>
+                        <div class="expeduitem">
+                            <h5>國立東華大學－華文文學系</h5>
+                            <h6 class="muted">2016/9~2020/6</h6>
+                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam tempora. Eos
+                                iure eligendi provident. Dolore optio dicta debitis omnis.</span>
+                        </div>
+
+                    </div>
+                    <div class="expjob col-12 col-md-6 mb-5 flex-column">
+                        <h4 class="mb-3">Job</h4>
+                        <div class="expjobitem">
+                            <h5>博物館暑期實習生</h5>
+                            <h6 class="muted">2019/7~2019/8</h6>
+                            <pre>
+文物建檔（文物掃描、資料Key in）
+展場導覽（售票、接待旅客、歷史導覽）
+文書處理
+</pre>
+                        </div>
+                        <div class="expjobitem">
+                            <h5>編輯採訪社－社團編輯</h5>
+                            <h6 class="muted">2017~2018</h6>
+                            <pre>
+雜誌編輯與採訪
+題材發想與撰寫
+社團活動企劃與執行
+                            </pre>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="skill" id="SK">
+            <div class="container">
+                <h3 class="text-center mx-auto pt-5">SKILL</h3>
+                <div class="d-flex justify-content-around flex-wrap">
+                    <div class="card my-5 border rounded-lg" style="width: 18rem;">
+                        <div class="mx-auto mt-4 mb-2">
+                            <div class="ibg mx-auto my-2"><i class="fas fa-code"></i></div>
+                            <h4>程式技能</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-content-center text-left mx-auto" style="width:100px">
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                                <li>Html/CSS</li>
+                                <li>Bootstrap</li>
+                                <li>Javascript</li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card my-5 border rounded-lg" style="width: 18rem;">
+                        <div class="mx-auto mt-4 mb-2">
+                            <div class="ibg mx-auto my-2"><i class="fas fa-code-branch"></i></div>
+                            <h4>其他技能</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-content-center text-left mx-auto" style="width:100px">
+                                <li>GIT</li>
+                                <li>Photoshop</li>
+                                <li>Illustrator</li>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card my-5 border rounded-lg" style="width: 18rem;">
+                        <div class="mx-auto mt-4 mb-2">
+                            <div class="ibg mx-auto my-2"><i class="fas fa-fist-raised"></i></div>
+                            <h4>證照</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-content-center text-center mx-auto"
+                                style="width:200px">
+                                <li>TOEIC (多益測驗) 730分</li>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="portfolio" id="PF">
+            <div class="" id="pop">
+                <div class="closeicon d-flex justify-content-end"><i class="fas fa-window-close" id="popclose"></i></div>
+                
+            </div>
+            <div class="container">
+                <div class="container">
+                    <h3 class="text-center mx-auto pt-5 pb-3">Portfolio</h3>
+                    <div
+                        class="choose  badge-pill mb-5 mx-auto d-flex justify-content-around align-content-center text-center">
+                        <div onclick="showall(this)" class="btnchoose">ALL</div>
+                        <div onclick="showphp(this)" class="btnchoose">PHP</div>
+                        <div onclick="showfe(this)" class="btnchoose">Frontend</div>
+                        <div onclick="showother(this)" class="btnchoose">Others</div>
+                    </div>
+                    <div class="row">
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5 phpcard">
+
+                            <div class="card" >
+                                <img src="https://picsum.photos/250/300/?random=3">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">PHP網站</div>
+
+                            </div>
+                            
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5 phpcard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=3">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">PHP網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5 phpcard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=3" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">PHP網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5 fecard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=4" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">前端網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5  fecard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=4" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">前端網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5  fecard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=4" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">前端網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5 otcard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=5" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">前端網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5 otcard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=5" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">前端網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5  otcard">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=5" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">前端網站</div>
+
+                            </div>
+                        </div>
+                        <div class="cbox col-6 col-md-4 col-lg-3 mb-5  otcard ">
+
+                            <div class="card">
+                                <img src="https://picsum.photos/250/300/?random=5" class="cimg">
+                                <div class="ch">
+                                    
+                                </div>
+                                <div class="cardtxt">前端網站</div>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="CM">
+            <div class="container ">
+                <h3 class="text-center mx-auto pt-5 pb-3">Contact Me</h3>
+                <p class="text-center" style="color: #F2EFEA;">感謝您撥冗閱讀，如有任何需要，請以電子郵件聯絡我！</p>
+                <p class="text-center" style="color: #F2EFEA;"><i class="far fa-envelope"></i> abc870710@gmail.com</p>
+
+            </div>
+
+        </div>
+
+
+
+    </article>
+</body>
+<script>
+
+    function showall(e) {
+        var phpcard = document.getElementsByClassName("phpcard");
+        var fecard = document.getElementsByClassName("fecard");
+        var otcard = document.getElementsByClassName("otcard");
+        for (var i = 0; i < phpcard.length; i++) {
+            phpcard[i].style.display = 'flex';
+        }
+        for (var i = 0; i < fecard.length; i++) {
+            fecard[i].style.display = 'flex';
+        }
+        for (var i = 0; i < otcard.length; i++) {
+            otcard[i].style.display = 'flex';
+        }
+
+    }
+    function showphp(e) {
+        var phpcard = document.getElementsByClassName("phpcard");
+        var fecard = document.getElementsByClassName("fecard");
+        var otcard = document.getElementsByClassName("otcard");
+        for (var i = 0; i < phpcard.length; i++) {
+            phpcard[i].style.display = 'flex';
+        }
+        for (var i = 0; i < fecard.length; i++) {
+            fecard[i].style.display = 'none';
+        }
+        for (var i = 0; i < otcard.length; i++) {
+            otcard[i].style.display = 'none';
+        }
+    }
+    function showfe(e) {
+        var phpcard = document.getElementsByClassName("phpcard");
+        var fecard = document.getElementsByClassName("fecard");
+        var otcard = document.getElementsByClassName("otcard");
+        for (var i = 0; i < phpcard.length; i++) {
+            phpcard[i].style.display = 'none';
+        }
+        for (var i = 0; i < fecard.length; i++) {
+            fecard[i].style.display = 'flex';
+        }
+        for (var i = 0; i < otcard.length; i++) {
+            otcard[i].style.display = 'none';
+        }
+    }
+    function showother(e) {
+        var phpcard = document.getElementsByClassName("phpcard");
+        var fecard = document.getElementsByClassName("fecard");
+        var otcard = document.getElementsByClassName("otcard");
+        for (var i = 0; i < phpcard.length; i++) {
+            phpcard[i].style.display = 'none';
+        }
+        for (var i = 0; i < fecard.length; i++) {
+            fecard[i].style.display = 'none';
+        }
+        for (var i = 0; i < otcard.length; i++) {
+            otcard[i].style.display = 'flex';
+        }
+    }
+    
+    var Card=document.getElementsByClassName("cbox");
+    for(i=0;i<=Card.length;i++){
+        var Card=document.getElementsByClassName("cbox");
+Card[i].addEventListener("click",pop);
+    }
+function pop(){
+    var POP=document.getElementById("pop");
+    POP.style.display="flex";
+    var close=document.getElementById("popclose");
+    close.addEventListener("click",hide);
+}
+
+function hide(){
+    var POP=document.getElementById("pop");
+    POP.style.display=""; 
+}
+</script>
+
+</html>

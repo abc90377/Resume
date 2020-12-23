@@ -1,0 +1,230 @@
+body{margin:0;}
+.banner{
+    width :100vw;
+    height :90vh;
+    max-width: 100%;
+    box-sizing: border-box;
+    /* background-image: url("banner01.png"); */
+    overflow: hidden;
+    background-size:contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color:#5C6991;
+}
+
+.navbar{
+    background-color:#282945;
+    height:10vh;
+    width:100vw;
+    max-width: 100%;
+    position:sticky;
+    top:0px;
+    z-index: 99;
+}
+.nav-link {
+    color: #F2EFEA !important;
+    }
+    .navbar-light .navbar-brand {
+        color: #F2EFEA !important;
+    }
+h3{
+color:#EC6A60;
+font-weight: bolder;
+}
+h4{
+    color:#EC6A60;
+    font-weight: bolder;  
+    text-align: center;
+}
+.ibg{
+    background-color:#EC6A60;
+    height:80px;
+    width: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.skill i{
+    
+    color:#F2EFEA;
+font-size: 40px;
+    margin:auto ;
+}
+.aboutMe span{
+    color:#282945;
+
+}
+.AMtxt{
+    color:#282945;
+    padding-bottom: 50px;
+    border-bottom: dotted #5C6991 4px;
+    font-weight: 500;
+}
+.aboutMe{
+    background:#F2EFEA;
+    
+}
+.skill{
+    background-color:#5C6991;
+}
+
+.skill .card-body{
+    padding:0;
+}
+.skill .card{
+    height:20rem;
+}
+.card{
+    background:#F2EFEA;
+}
+.portfolio{
+    background:#F2EFEA;
+    
+}
+.choose{
+    background-color:#EC6A60;
+    color:#F2EFEA;
+    height: 30px;
+    width: 300px;
+}
+.btnchoose {
+    cursor: pointer;
+}
+.footer{
+    background-color:#282945;
+    height:40vh;
+}
+
+.cimg{
+    flex-shrink: 0;
+}
+@keyframes caret {
+    50% { border-color: transparent; }
+  }
+  @keyframes typing {
+    from { width: 0 }
+  }
+  @keyframes txtsm {
+    from { opacity:  0 ;
+        color: transparent;}
+  }
+
+
+  
+  .title {
+    font-size: 50px;
+    width:500px;
+    border-right: .05em solid;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 6s steps(18),
+      caret 1s steps(1) infinite;
+  }
+  .txt {
+    font-size: 20px;
+    width:594px;
+    margin-left: -290px;
+    color:#EC6A60;
+    overflow: hidden;
+    white-space: nowrap;
+    
+    animation: typing 12s steps(54);
+    
+    
+  }
+  .titlesm {
+    font-size: 24px;
+    width:240px;
+    border-right: .05em solid;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 6s steps(18),
+      caret 1s steps(1) infinite;
+  }
+.txtsm{
+opacity: 1;
+font-size: 14px;
+color:#EC6A60;
+animation: txtsm 10s ease;
+}
+.expeduitem{
+    border-left: solid #EC6A60 2px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.expjobitem{
+    border-left: solid #EC6A60 2px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.ch{
+    position:absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    top: 0;
+    left:0;
+    background-color: #EC6A60 ;
+    transition: all 0.3s;
+}
+.cardtxt{
+    font-size: 30px;
+    position: absolute;
+    
+    color:#282945;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+@keyframes cardhover {
+    to { width: 100%}; 
+}
+.card:hover .ch{
+    transform: translateY(0px);
+    transition-delay: 0.2s;
+    opacity: 0.7;
+}
+.card:hover .cardtxt{
+    transform: translateY(0px);
+    transition-delay: 0.2s;
+    color:#F2EFEA;
+}
+
+#pop{
+    font-size: 16px;
+    display:none;
+    height: 60vh;
+    width: 60vw;
+    
+    top:50%;
+    left:50%; 
+    margin-left:-30vw;
+    margin-top:-30vh;
+
+    position: fixed;
+    box-shadow: -0.5px 0.5px 4px #a9a9a9;
+    border-radius: 5px;
+    
+    background-color:#fafafa;
+    opacity: 1;
+    z-index: 10000;
+}
+.closeicon{
+    font-size:30pt;
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    color:#EC6A60  ;
+}
+.fa-window-close{
+    cursor: pointer;
+}
+
+
