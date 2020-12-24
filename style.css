@@ -20,6 +20,7 @@ body{margin:0;}
     position:sticky;
     top:0px;
     z-index: 99;
+    font-size: 15pt;
 }
 .nav-link {
     color: #F2EFEA !important;
@@ -60,6 +61,7 @@ font-size: 40px;
     padding-bottom: 50px;
     border-bottom: dotted #5C6991 4px;
     font-weight: 500;
+    
 }
 .aboutMe{
     background:#F2EFEA;
