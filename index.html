@@ -18,7 +18,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/90885657e1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -184,10 +184,14 @@
             </div>
         </div>
         <div class="portfolio" id="PF">
+            <div id="popbg"></div>
             <div class="" id="pop">
                 <div class="closeicon d-flex justify-content-end"><i class="fas fa-window-close" id="popclose"></i></div>
                 
             </div>
+
+            
+
             <div class="container">
                 <div class="container">
                     <h3 class="text-center mx-auto pt-5 pb-3">Portfolio</h3>
@@ -391,20 +395,27 @@
     }
     
     var Card=document.getElementsByClassName("cbox");
-    for(i=0;i<=Card.length;i++){
-        var Card=document.getElementsByClassName("cbox");
-Card[i].addEventListener("click",pop);
+    for(i=0;i<Card.length;i++){
+        console.log(Card[i])
+        /* var Card=document.getElementsByClassName("cbox"); */
+        Card[i].addEventListener("click",pop);
     }
 function pop(){
     var POP=document.getElementById("pop");
+    var POPBG=document.getElementById("popbg");
     POP.style.display="flex";
+    POPBG.style.display="block";
     var close=document.getElementById("popclose");
+    
     close.addEventListener("click",hide);
+    POPBG.addEventListener("click",hide);
 }
 
 function hide(){
     var POP=document.getElementById("pop");
-    POP.style.display=""; 
+    var POPBG=document.getElementById("popbg");
+    POP.style.display="none"; 
+    POPBG.style.display="none"; 
 }
 </script>
 
