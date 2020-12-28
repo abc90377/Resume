@@ -199,13 +199,14 @@ animation: txtsm 10s ease;
 #pop{
     font-size: 16px;
     display:none;
-    height: 60vh;
-    width: 60vw;
+    /* height: 70vh;
+    width: 70vw; */
     
-    top:50%;
-    left:50%; 
-    margin-left:-30vw;
-    margin-top:-30vh;
+    top:5%;
+    bottom: 10%;
+    left:10%; 
+    right:10%;
+
 
     position: fixed;
     box-shadow: -0.5px 0.5px 4px #a9a9a9;
