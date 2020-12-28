@@ -52,6 +52,18 @@ h4{
 font-size: 40px;
     margin:auto ;
 }
+.navbar-toggler{
+    background-color:#F2EFEA;
+
+}
+.nav-link{
+    color:#F2EFEA!important; 
+    
+}
+.navbar-nav{
+    background-color:#282945  ;
+    
+}
 .aboutMe span{
     color:#282945;
 
@@ -242,5 +254,20 @@ animation: txtsm 10s ease;
 .fa-window-close{
     cursor: pointer;
 }
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #EC6A60 ;
+    position: relative;
+    top: 0px;
+    left: -26px;
+}
+h5{
+    font-weight: 600;
+    color: #282945;
+}
+
+
 
 
