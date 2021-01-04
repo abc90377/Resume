@@ -1,20 +1,21 @@
 body{margin:0;}
 .banner{
     width :100vw;
-    height :90vh;
+    height :95vh;
     max-width: 100%;
     box-sizing: border-box;
-    /* background-image: url("banner01.png"); */
+    background-image: url("img/banner.jpg");
     overflow: hidden;
-    background-size:contain;
-    background-position: right;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color:#5C6991;
+    background-color:#Dcd7c9;
 }
 
 .navbar{
-    background-color:#282945;
-    height:10vh;
+    background-color:#584544;
+    height:7vh;
     width:100vw;
     max-width: 100%;
     position:sticky;
@@ -61,7 +62,7 @@ font-size: 40px;
     
 }
 .navbar-nav{
-    background-color:#282945  ;
+    background-color:#584544  ;
     
 }
 .aboutMe span{
@@ -71,7 +72,7 @@ font-size: 40px;
 .AMtxt{
     color:#282945;
     padding-bottom: 50px;
-    border-bottom: dotted #5C6991 4px;
+    border-bottom: dotted #584544 4px;
     font-weight: 500;
     
 }
@@ -80,7 +81,7 @@ font-size: 40px;
     
 }
 .skill{
-    background-color:#5C6991;
+    background-color:#Dcd7c9;
 }
 
 .skill .card-body{
@@ -106,7 +107,7 @@ font-size: 40px;
     cursor: pointer;
 }
 .footer{
-    background-color:#282945;
+    background-color:#584544;
     height:250px;
 }
 
@@ -228,10 +229,10 @@ animation: txtsm 10s ease;
     /* height: 70vh;
     width: 70vw; */
     
-    top:5%;
-    bottom: 10%;
-    left:10%; 
-    right:10%;
+    top:20%;
+    bottom: 20%;
+    left:20%; 
+    right:20%;
 
 
     position: fixed;
