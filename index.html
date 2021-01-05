@@ -20,21 +20,24 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/90885657e1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
     <div class="banner d-flex justify-content-center  flex-column align-items-center">
-       
+        <div class="bannerfilter"></div>
+
         <div class="typeflex-column">
             <h1 class="title text-monospace  d-sm-flex  d-none">Hi!Here is Ouyang.</h1>
-            <h1 class="txt text-monospace  d-sm-flex  d-none">
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thinker,Creator
-                and Learner</h1>
+
             <h1 class="titlesm text-monospace d-flex d-sm-none">Hi!Here is Ouyang.</h1>
 
         </div>
-        <div class="d-flex d-sm-none justify-content-center  flex-column">
+        <div class="d-flex  justify-content-center  flex-column">
 
             <h1 class="txtsm text-monospace">&lt;Learner&gt;</h1>
             <h1 class="txtsm text-monospace">&lt;Thinker&gt;</h1>
@@ -44,8 +47,8 @@
     </div>
 
 
-    <nav class="navbar navbar-expand-lg navbar-light w-100vw">
-        <a class="navbar-brand" href="#top">TOP</a>
+    <nav class="navbar navbar-expand-lg navbar-light w-100vw navsh" id="nav">
+        <a class="navbar-brand" href="#top"><i class="fas fa-ghost"></i> OUYANG'S RESUME</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -67,6 +70,7 @@
             </ul>
         </div>
     </nav>
+
     <article>
         <div class="aboutMe" id="AM">
             <div class="container d-flex flex-column">
@@ -89,58 +93,82 @@
 
                     <div class="expedu col-12 mx-auto col-md-6 mb-5 d-flex flex-column">
                         <h4 class="mb-3">Education</h4>
-                        <div class="expeduitem">
-                            <div class="dot"></div>
-                            <h5>泰山職業訓練場－PHP資料庫網頁設計班</h5>
-                            <h6 class="muted">2020 / 9 ~ 2020 / 3</h6>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam tempora. Eos
-                                iure eligendi provident. Dolore optio dicta debitis omnis.</span>
+                        <div class="eduline">
+                            <div class="expeduitem">
+                                <div class="dot"></div>
+                                <h5>泰山職業訓練場－PHP資料庫網頁設計班</h5>
+                                <h6 class="muted">2020 / 9 ~ 2020 / 3</h6>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam tempora.
+                                    Eos
+                                    iure eligendi provident. Dolore optio dicta debitis omnislo Lorem ipsum dolor sit
+                                    amet,
+                                    consectetur adipisicing elit. Laboriosam, libero cum quasi magni pariatur tempora
+                                    illo,
+                                    aut fugiat voluptatum deleniti nihil quae voluptate nostrum. Voluptatem fuga maiores
+                                    quia beatae quam.</span>
+                            </div>
+                            <div class="expeduitem">
+                                <div class="dot"></div>
+                                <h5>國立東華大學－華文文學系</h5>
+                                <h6 class="muted">2016 / 9 ~ 2020 / 6</h6>
+                                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam tempora.
+                                    Eos
+                                    iure eligendi provident. Dolore optio dicta debitis omnis.</span>
+                            </div>
                         </div>
-                        <div class="expeduitem">
-                            <div class="dot"></div>
-                            <h5>國立東華大學－華文文學系</h5>
-                            <h6 class="muted">2016 / 9 ~ 2020 / 6</h6>
-                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, numquam tempora. Eos
-                                iure eligendi provident. Dolore optio dicta debitis omnis.</span>
-                        </div>
-
                     </div>
                     <div class="expjob col-12 mx-auto col-md-6 mb-5 flex-column">
 
                         <h4 class="mb-3">Job</h4>
-                        <div class="expjobitem">
-                            <div class="dot"></div>
-                            <h5>台北二二八紀念館－實習生</h5>
-                            <h6 class="muted">2019 / 7 ~ 2019 / 8</h6>
-                            <pre>
-歷史文物建檔及史料文件管理
-館內展覽接待與活動導覽
-協助主管處理行政文書作業
-</pre>
-                        </div>
-                        <div class="expjobitem">
-                            <div class="dot"></div>
-                            <h5>編輯採訪社－社團編輯</h5>
-                            <h6 class="muted">2017 / 9 ~ 2018 / 9</h6>
-                            <pre>
-雜誌編輯與採訪
-題材發想與撰寫
-社團活動企劃與執行
-                            </pre>
+                        <div class="jobline">
 
-                        </div>
+                            <div class="expjobitem">
 
+                                <div class="dot"></div>
+                                <h5>台北二二八紀念館－實習生</h5>
+                                <h6 class="muted">2019 / 7 ~ 2019 / 8</h6>
+
+                                <span>歷史文物建檔及史料文件管理</span><br>
+                                <span>館內展覽接待與活動導覽</span><br>
+                                <span>協助主管處理行政文書作業</span>
+
+                            </div>
+                            <div class="expjobitem">
+                                <div class="dot"></div>
+                                <h5>編輯採訪社－社團編輯</h5>
+                                <h6 class="muted">2017 / 9 ~ 2018 / 9</h6>
+
+                                <span>雜誌題材發想與企劃</span><br>
+                                <span>根據雜誌主題進行採訪並撰寫文章</span><br>
+                                <span>規劃及執行社團活動</span>
+
+                            </div>
+                        </div>
                     </div>
-
-
-
                 </div>
+
+
+
             </div>
         </div>
+
         <div class="skill" id="SK">
             <div class="container">
                 <h3 class="text-center mx-auto pt-5">SKILL</h3>
                 <div class="d-flex justify-content-around flex-wrap">
+                    <div class="card my-5 border rounded-lg" style="width: 18rem;">
+                        <div class="mx-auto mt-4 mb-2">
+                            <div class="ibg mx-auto my-2"><i class="fas fa-code-branch"></i></div>
+                            <h4>後端技能</h4>
+
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex flex-column align-content-center text-left mx-auto" style="width:100px">
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                            </div>
+                        </div>
+                    </div>
                     <div class="card my-5 border rounded-lg" style="width: 18rem;">
                         <div class="mx-auto mt-4 mb-2">
                             <div class="ibg mx-auto my-2"><i class="fas fa-code"></i></div>
@@ -156,19 +184,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card my-5 border rounded-lg" style="width: 18rem;">
-                        <div class="mx-auto mt-4 mb-2">
-                            <div class="ibg mx-auto my-2"><i class="fas fa-code-branch"></i></div>
-                            <h4>後端技能</h4>
 
-                        </div>
-                        <div class="card-body">
-                            <div class="d-flex flex-column align-content-center text-left mx-auto" style="width:100px">
-                                <li>PHP</li>
-                                <li>MySQL</li>
-                            </div>
-                        </div>
-                    </div>
                     <div class="card my-5 border rounded-lg" style="width: 18rem;">
                         <div class="mx-auto mt-4 mb-2">
                             <div class="ibg mx-auto my-2"><i class="fas fa-fist-raised"></i></div>
@@ -192,13 +208,16 @@
             <div id="popbg"></div>
             <div class="" id="pop">
                 <div class="popcontent d-flex flex-column col-12">
-                    <div class="closeicon col-12 justify-content-end"><i class="fas fa-window-close" id="popclose"></i>
+                    <div class="closeicon col-12 justify-content-end"><i class="fas fa-window-close" id="popclose"
+                            style="cursor: pointer;"></i>
                     </div>
-                    <div class="d-flex flex-wrap align-items-center cardcontainer  justify-content-center"  height="100%">
-                        <div class="popimg col-6 col-md-6" id="popimg">
+                    <div class="popcontainer  d-flex align-items-center">
+
+                        <div class="popimg col-6 col-md-6 d-md-flex d-none px-5" id="popimg">
                             <img src="https://picsum.photos/1020/768/?random=1">
                         </div>
-                        <div class="col-12 col-md-6" id="popcontent">
+                        <div class="col-12 col-md-6 px-3" id="popcontent">
+
                             <h3 id="poptitle">測試標題</h3>
                             <div id="poptxt">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, molestias.
@@ -206,6 +225,7 @@
                                 re error ullam ipsa. Animi dolorum aliquid provident tempora. Pariatur, ad.
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -226,11 +246,12 @@
                     <div class="row">
                         <div class="cbox col-12   col-md-4 col-lg-4 mb-5 phpcard" id="a0">
 
-                            <div class="card">
-                                <img src="img/a0.png" height="300px"  style="object-fit: cover;">
-                                <div class="ch">
 
-                                </div>
+                            <div class="card">
+
+                                <img src="img/a0.png" height="300px" style="object-fit:cover;">
+
+                                <div class="cboxcover"></div>
                                 <div class="cardtxt">發票兌獎系統</div>
 
                             </div>
@@ -240,9 +261,7 @@
 
                             <div class="card">
                                 <img src="img/a1.png" height="300px" style="object-fit: cover;">
-                                <div class="ch">
-
-                                </div>
+                                <div class="cboxcover"></div>
                                 <div class="cardtxt">PHP萬年曆</div>
 
                             </div>
@@ -252,10 +271,8 @@
                         <div class="cbox col-12  col-md-4 col-lg-4 mb-5  fecard" id="a2">
 
                             <div class="card">
-                                <img src="img/a2.png" height="300px"  style="object-fit: cover;">
-                                <div class="ch">
-
-                                </div>
+                                <img src="img/a2.png" height="300px" style="object-fit: cover;">
+                                <div class="cboxcover"></div>
                                 <div class="cardtxt">JS選色器</div>
 
                             </div>
@@ -291,7 +308,7 @@
                 </div>
 
             </div>
-            </div>
+        </div>
 
 
 
@@ -371,22 +388,22 @@
     a0 = document.getElementById("a0");
     a0.addEventListener("click", function () {
         poptitle.innerHTML = "發票兌獎系統";
-        popimg.innerHTML='<img src="img/a0.png" width="100%" height="100%">'
-        poptxt.innerHTML = "PHP+MySQL+CSS+HTML<br><ul><li>資料庫的CRUD</li><li>對獎功能(一鍵對多張發票)</li></ul><br><button><a target='_blank' href='http://220.128.133.15/s1090411/invoice/'>點我看作品</a></button><a target='_blank' href='https://github.com/abc90377/perpetual_calendar-abc90377'><i class='fab fa-github' style='font-size:2rem;margin:5px;'></i></a>";
-  
+        popimg.innerHTML = '<img src="img/a0.png" width="100%" height="100%">'
+        poptxt.innerHTML = "PHP+MySQL+CSS+HTML<br><ul><li>資料庫的CRUD</li><li>對獎功能(一鍵對多張發票)</li><li>計算中獎總金額與張數</li></ul><br><button><a target='_blank' href='http://220.128.133.15/s1090411/invoice/'>點我看作品</a></button><a target='_blank' href='https://github.com/abc90377/perpetual_calendar-abc90377'><i class='fab fa-github' style='font-size:2rem;margin:5px;'></i></a>";
+
     });
     a1 = document.getElementById("a1");
     a1.addEventListener("click", function () {
         poptitle.innerHTML = "萬年曆";
-        popimg.innerHTML='<img src="img/a1.png" width="100%" height="100%">'
-        poptxt.innerHTML = "PHP+CSS+HTML<br><ul><li>自動取得當前日期</li><li>可透過選單傳值，任意切換月份與年份</li><li>隨月份切換圖片</li><li>對比頁面月份是現在月份的之前或之後</li><li>計算中獎總金額與張數</li></ul><br><button><a target='_blank' href='http://220.128.133.15/s1090411/calendar/'>點我看作品</a></button><a target='_blank' href='https://github.com/abc90377/invoice-abc90377'><i class='fab fa-github' style='font-size:2rem;margin:5px;'></i></a>";
+        popimg.innerHTML = '<img src="img/a1.png" width="100%" height="100%">'
+        poptxt.innerHTML = "PHP+CSS+HTML<br><ul><li>自動取得當前日期</li><li>可透過選單傳值，任意切換月份與年份</li><li>隨月份切換圖片</li><li>對比頁面月份是現在月份的之前或之後</li></ul><br><button><a target='_blank' href='http://220.128.133.15/s1090411/calendar/'>點我看作品</a></button><a target='_blank' href='https://github.com/abc90377/invoice-abc90377'><i class='fab fa-github' style='font-size:2rem;margin:5px;'></i></a>";
     });
     a2 = document.getElementById("a2");
     a2.addEventListener("click", function () {
         poptitle.innerHTML = "選色器";
-        popimg.innerHTML='<img src="img/a2.png" width="100%" height="100%">'
+        popimg.innerHTML = '<img src="img/a2.png" width="100%" height="100%">'
         poptxt.innerHTML = "JS練習<br><ul><li>切換圖形顏色與形狀</li></ul><br><button><a target='_blank' href='http://220.128.133.15/s1090411/colorshape/'>點我看作品</a></button>";
-  
+
     });
 
     function pop() {
@@ -408,6 +425,25 @@
         POP.style.display = "none";
         POPBG.style.display = "none";
     }
+    $(window).scroll(() => {
+nav();
+});
+nav();
+function nav(){
+            nt=$(window).scrollTop(),
+            bh= $(".banner").height();
+if(nt>=bh){$("#nav").fadeIn();
+    $("#nav").addClass('navsh');
+    
+}else{
+    $("#nav").fadeOut();
+    $("#nav").removeClass('navsh');
+}
+}
+
+
+
+
 </script>
 
 </html>
