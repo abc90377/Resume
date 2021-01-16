@@ -11,7 +11,7 @@ body{margin:0;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    
+    position: relative;
 
 }
 .bannerfilter{
@@ -29,7 +29,7 @@ body{margin:0;
 
 .navbar{
     background-color:#584544;
-    height:0vh;
+    height:10vh;
     width:100vw;
     max-width: 100%;
     position:sticky;
@@ -38,9 +38,23 @@ body{margin:0;
     font-size: 15pt;
     transition: 1000ms ease;
 }
-.navbar-nav {
+
+#navbarNav{
     background-color:transparent;
+
 }
+@media screen and (max-width: 992px) {
+    #navbarNav {
+      background-color:#584544;
+    }
+  }
+
+  
+.navbar-collapse {
+    
+    padding: 5px;
+}
+
 .nav-link {
     color: #F2EFEA !important;
     }
@@ -130,58 +144,23 @@ font-size: 40px;
 .cimg{
     flex-shrink: 0;
 }
-@keyframes caret {
-    50% { border-color: transparent; }
-  }
-  @keyframes typing {
-    from { width: 0 }
-  }
-  @keyframes txtsm {
-    from { opacity:  0 ;
-        color: transparent;}
-  }
+
+
 
 
   
-  .title {
-    font-size: 50px;
-    z-index: 9000;
-    width:500px;
-    border-right: .05em solid;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 6s steps(18),
-      caret 1s steps(1) infinite;
-      text-shadow: 7px 2px 5px #e0c2c2;
-  }
-  .txt {
-    z-index: 9000;
-    font-size: 20px;
-    width:594px;
-    margin-left: -290px;
-    color:#EC6A60;
-    overflow: hidden;
-    white-space: nowrap;
-    
-    animation: typing 12s steps(54);
-    
-    
-  }
-  .titlesm {
-    font-size: 1.5rem;
-    width:15rem;
-    border-right: .05em solid;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 6s steps(18),
-      caret 1s steps(1) infinite;
-  }
+  
 .txtsm{
-opacity: 1;
+
 font-size: 14px;
 color:#EC6A60;
-animation: txtsm 10s ease;
+animation: txtsm 6s ease;
+z-index: 10000;
 }
+@keyframes txtsm {
+    from { opacity: 0 }
+    to { opacity: 1 }
+  }
 .expedu{
     
     padding-left: 20px;
@@ -281,7 +260,9 @@ h5{
     font-weight: 600;
     color: #282945;
 }
-
+.expjob span{
+    line-height: 2rem;
+}
 
 .cbox{
     cursor: pointer;
@@ -308,9 +289,33 @@ h5{
     opacity:0.5;   
 }
 .navsh{
-    height: 8vh;
-    
+    opacity: 1;
+    height: 0;
 }
+.type_effect ,.type_effect_sm {
+    padding: 3px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    z-index: 100000000;
+    animation: 
+      typing 3s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0); }
+  }
 
 
 
