@@ -304,6 +304,17 @@ h5{
       typing 3s steps(30, end),
       blink-caret .5s step-end infinite;
   }
+  .btn{
+      background-color: #EC6A60;
+      color:white;
+  }
+  .card .btn{
+float: right;
+  }
+  .card img{
+      object-fit: cover;
+      height:150px;
+  }
   
   /* The typing effect */
   @keyframes typing {
