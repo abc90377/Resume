@@ -1,208 +1,243 @@
-body{margin:0;
-    background-color:#F2EFEA;}
-.banner{
-    width :100vw;
-    height :100vh;
+body {
+    margin: 0;
+    background-color: #F2EFEA;
+}
+
+.banner {
+    width: 100vw;
+    height: 100vh;
     max-width: 100%;
     box-sizing: border-box;
     background-image: url("img/banner.jpg");
     overflow: hidden;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     position: relative;
 
 }
-.bannerfilter{
+
+.bannerfilter {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color:#F2EFEA;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F2EFEA;
     opacity: 0.4;
     z-index: 100;
 
 }
-.typeflex-column{
+
+.typeflex-column {
     z-index: 900;
 }
 
-.navbar{
-    background-color:#584544;
-    height:10vh;
-    width:100vw;
+.navbar {
+    background-color: #584544;
+    height: 10vh;
+    width: 100vw;
     max-width: 100%;
-    position:sticky;
-    top:0px;
+    position: sticky;
+    top: 0px;
     z-index: 99;
     font-size: 15pt;
     transition: 1000ms ease;
 }
 
-#navbarNav{
-    background-color:transparent;
+#navbarNav {
+    background-color: transparent;
 
 }
+
 @media screen and (max-width: 992px) {
     #navbarNav {
-      background-color:#584544;
+        background-color: #584544;
     }
-  }
+}
 
-  
+
 .navbar-collapse {
-    
+
     padding: 5px;
 }
 
 .nav-link {
     color: #F2EFEA !important;
-    }
-    .navbar-light .navbar-brand {
-        color: #F2EFEA !important;
-    }
-h3{
-color:#EC6A60;
-font-weight: bolder;
 }
-h4{
-    color:#EC6A60;
-    font-weight: bolder;  
+
+.navbar-light .navbar-brand {
+    color: #F2EFEA !important;
+}
+
+h3 {
+    color: #EC6A60;
+    font-weight: bolder;
+}
+
+h4 {
+    color: #EC6A60;
+    font-weight: bolder;
     text-align: center;
 }
-.ibg{
-    background-color:#EC6A60;
-    height:80px;
+
+.ibg {
+    background-color: #EC6A60;
+    height: 80px;
     width: 80px;
     text-align: center;
     display: flex;
     justify-content: center;
     border-radius: 50%;
 }
-.skill i{
-    
-    color:#F2EFEA;
-font-size: 40px;
-    margin:auto ;
-}
-.navbar-toggler{
-    background-color:#F2EFEA;
 
-}
-.nav-link{
-    color:#F2EFEA!important; 
-    
+.skill i {
+
+    color: #F2EFEA;
+    font-size: 40px;
+    margin: auto;
 }
 
-.aboutMe span{
-    color:#282945;
+.navbar-toggler {
+    background-color: #F2EFEA;
 
 }
-.AMtxt{
-    color:#282945;
+
+.nav-link {
+    color: #F2EFEA !important;
+
+}
+
+.aboutMe span {
+    color: #282945;
+
+}
+
+.AMtxt {
+    color: #282945;
     padding-bottom: 50px;
     border-bottom: dotted #584544 4px;
     font-weight: 500;
-    
-}
-.aboutMe{
-    background:#F2EFEA;
-    
-}
-.skill{
-    background-color:#Dcd7c9;
-}
-
-.skill .card-body{
-    padding:0;
-}
-.skill .card{
-    height:20rem;
-}
-.card{
-    background:#F2EFEA;
 
 }
-.portfolio{
-    background:#F2EFEA;
-    
+
+.aboutMe {
+    background: #F2EFEA;
+
 }
-.choose{
-    background-color:#EC6A60;
-    color:#F2EFEA;
+
+.skill {
+    background-color: #Dcd7c9;
+}
+
+.skill .card-body {
+    padding: 0;
+}
+
+.skill .card {
+    height: 20rem;
+}
+
+.card {
+    background: #F2EFEA;
+
+}
+
+.portfolio {
+    background: #F2EFEA;
+
+}
+
+.choose {
+    background-color: #EC6A60;
+    color: #F2EFEA;
     height: 30px;
     width: 300px;
 }
+
 .btnchoose {
     cursor: pointer;
 }
-.footer{
-    background-color:#584544;
-    height:250px;
+
+.footer {
+    background-color: #584544;
+    height: 250px;
 }
 
-.cimg{
+.cimg {
     flex-shrink: 0;
 }
 
 
 
 
-  
-  
-.txtsm{
 
-font-size: 14px;
-color:#EC6A60;
-animation: txtsm 6s ease;
-z-index: 10000;
+
+.txtsm {
+
+    font-size: 14px;
+    color: #EC6A60;
+    animation: txtsm 6s ease;
+    z-index: 10000;
 }
+
 @keyframes txtsm {
-    from { opacity: 0 }
-    to { opacity: 1 }
-  }
-.expedu{
-    
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.expedu {
+
     padding-left: 20px;
     margin-bottom: 30px;
 }
-.jobline{
+
+.jobline {
     border-left: solid #EC6A60 2px;
     padding-left: 20px;
     margin-bottom: 30px;
 }
-.eduline{
+
+.eduline {
     border-left: solid #EC6A60 2px;
     padding-left: 20px;
     margin-bottom: 30px;
 }
-.ch{
-    position:absolute;
+
+.ch {
+    position: absolute;
     display: block;
     width: 100%;
     height: 100%;
     opacity: 0;
     top: 0;
-    left:0;
-    background-color: #EC6A60 ;
+    left: 0;
+    background-color: #EC6A60;
     transition: all 0.3s;
 }
-.cardtxt{
+
+.cardtxt {
     font-size: 30px;
     position: absolute;
-    
-    color:#282945;
+
+    color: #282945;
     text-align: center;
     height: 100%;
     width: 100%;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 
 }
 
-#popbg{
-    display:none;
+#popbg {
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -214,125 +249,164 @@ z-index: 10000;
     z-index: 9999;
     opacity: 0.5;
 }
-#pop{
+
+#pop {
     font-size: 16px;
-    display:none;
+    display: none;
     /* height: 70vh;
     width: 70vw; */
-    
-    top:20%;
+
+    top: 20%;
     bottom: 20%;
-    left:20%; 
-    right:20%;
+    left: 20%;
+    right: 20%;
 
 
     position: fixed;
     box-shadow: -0.5px 0.5px 4px #a9a9a9;
     border-radius: 5px;
-    
-    background-color:#fafafa;
+
+    background-color: #fafafa;
     opacity: 1;
     z-index: 10000;
 }
-.closeicon{
-    font-size:30pt;
+
+.closeicon {
+    font-size: 30pt;
     display: flex;
     width: 100%;
     max-height: 50px;
     padding: 5px;
     margin: 0;
-    color:#EC6A60  ;
+    color: #EC6A60;
 }
-.fa-window-close{
+
+.fa-window-close {
     cursor: pointer;
     z-index: 1000;
 }
-.dot{
+
+.dot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #EC6A60 ;
+    background: #EC6A60;
     position: relative;
     top: 15px;
     left: -26px;
 }
-h5{
+
+h5 {
     font-weight: 600;
     color: #282945;
 }
-.expjob span{
+
+.expjob span {
     line-height: 2rem;
 }
 
-.cbox{
+.cbox {
     cursor: pointer;
     position: relative;
 }
-.cboxcover{
+
+.cboxcover {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-color:#Dcd7c9;
-    opacity:1;
-    
-}
-.popcontainer{
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #Dcd7c9;
+    opacity: 1;
+
 }
 
-.card:hover .cboxcover{
-    
+.popcontainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.card:hover .cboxcover {
+
     transition: 1s;
     transition-timing-function: ease-out;
-    opacity:0.5;   
+    opacity: 0.5;
 }
-.navsh{
+
+.navsh {
     opacity: 1;
     height: 0;
 }
-.type_effect ,.type_effect_sm {
+
+.type_effect,
+.type_effect_sm {
     padding: 3px;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(0, 0, 0);
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
     z-index: 100000000;
-    animation: 
-      typing 3s steps(30, end),
-      blink-caret .5s step-end infinite;
+    animation:
+        typing 3s steps(30, end),
+        blink-caret .5s step-end infinite;
+}
+
+.btn {
+    background-color: #EC6A60;
+    color: white;
+}
+
+.card .btn {
+    float: right;
+}
+
+.card img {
+    object-fit: cover;
+    height: 150px;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
+}
+
+.fa-github {
+    cursor: pointer;
+    font-size: 20pt;
+}
+
+.fa-github:hover {
+    color: #EC6A60;
+}
+a {
+    text-decoration: none;
+    color: #584544;
   }
-  .btn{
-      background-color: #EC6A60;
-      color:white;
-  }
-  .card .btn{
-float: right;
-  }
-  .card img{
-      object-fit: cover;
-      height:150px;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0); }
-  }
-
-
-
-
-
-
-
-
-
