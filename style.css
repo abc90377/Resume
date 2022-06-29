@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #F2EFEA;
+    line-height:35px;
 }
 
 .banner {
@@ -119,7 +120,6 @@ h4 {
     padding-bottom: 50px;
     border-bottom: dotted #584544 4px;
     font-weight: 500;
-
 }
 
 .aboutMe {
